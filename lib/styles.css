@@ -1,0 +1,176 @@
+* {
+  /* outline: solid red; */
+}
+
+html {
+  outline: none;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-rows: 200px 1fr 200px;
+}
+
+header {
+  color: white;
+  background-color: black;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 3fr 5fr 1fr;
+}
+
+#header-title {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+#header-title-text-container {
+  min-width: 340px;
+}
+
+#header-subtitle {
+  padding-left: 40px;
+  color: red;
+}
+
+#header-sub-subtitle {
+  padding-left: 90px;
+}
+
+#header-links {
+  grid-column: 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 550px;
+}
+
+#header-links {
+  padding-top: 50px;
+}
+
+nav {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+article {
+  grid-column: 2;
+  grid-row: 2;
+  overflow: auto;
+}
+
+.article-container {
+  display: grid; 
+  grid-template-rows: 1fr 3fr;
+  margin: 30px;
+}
+
+#bio-title {
+  grid-row: 1;
+}
+
+#bio-text {
+  grid-row: 2;
+  color: grey;
+  padding: 20px;
+  margin: 0;
+}
+
+#skills-title {
+  margin: 0;
+}
+
+#skills-image-container {
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-side: 20px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.skills-image {
+  height: 100px;
+  max-width: fit-content;
+}
+
+
+
+aside {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+footer {
+  color: white;
+  background-color: grey;
+  grid-row: 3 ;
+  grid-column: 1 / span 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.social-media-logos {
+  height: 100px;
+  max-width: 100%;
+}
+
+#gmail-logo {
+  height: 80px;
+
+}
+
+@media screen and (max-width: 547px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr 100px 100px;
+    margin: 0;
+  }
+
+  header {
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+  } 
+
+  article {
+    grid-row: 2; 
+    grid-column: 1;
+  } 
+
+  nav {
+    grid-row: 3; 
+    grid-column: 1;
+  } 
+  aside {
+    display: none;
+  } 
+
+  footer {
+    grid-row: 4; 
+    grid-column: 1;
+  } 
+}
