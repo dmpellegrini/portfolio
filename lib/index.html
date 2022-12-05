@@ -25,49 +25,166 @@
       <nav>
         <ul>
           <li>Bio</li>
-          <li>Skills</li>
           <li>Web Developement</li>
           <li>Audio Engineering</li>
+          <li>Skills</li>
         </ul>
       </nav>
       <article>
         <div class="article-container" id="bio-container"> 
-          <h1 id="bio-title">About Me<h1>
+          <h1 id="bio-title">About Me:<h1>
           <p id="bio-text">
-            Hello World! I'm Danny, and welcome to my web page.
-            I' a Full Stack Developer based in New York City with a passion for
-            utilizing and building tools of the modern world.  
+            Hello World! I'm Danny Pellegrini, and welcome to my web page.
+            I'm a Full Stack Developer based in New York City with a previous
+            career in the Recording Industry. My passion is working with teams
+            to build tools that will contribute to the modern world.
           </p>  
         </div>
-        <div class="article-container" id="skills-container">
-          <h1 id="skills-title">Skill Set</h1>
-          <div id="skills-image-container">
-            <img class="skills-image" src="../assets/javascript.png" alt="javascript">
-            <img class="skills-image" src="../assets/css3.png" alt="css3">
-            <img class="skills-image" src="../assets/django.png" alt="django">
-            <img class="skills-image" src="../assets/html.png" alt="html">
-            <img class="skills-image" src="../assets/mongodb.png" alt="mongodb">
-            <img class="skills-image" src="../assets/node_js.png" alt="node_js">
-            <img class="skills-image" src="../assets/postgres.png" alt="postgres">
-            <img class="skills-image" src="../assets/python.png" alt="python">
-            <img class="skills-image" src="../assets/react.png" alt="react">
-            <img class="skills-image" src="../assets/vim.png" alt="vim">
-            <img class="skills-image" src="../assets/neovim.png" alt="neovim">
+        <div class="article-container" id="projects-container">
+          <h1 id="projects-title">Web Development Projects:</h1>
+          <div class="project-container">
+            <h3 class="project-title">Vimotional (Vanilla Javascript)</h3>
+            <p class="project-about">
+              When I first started bootcamp at General Assembly, my instructor 
+              inspired me to learn VIM. The learning curve was           
+              steep, so I designed a fun and simple game called "Vimotional" that would help 
+              me get the VIM motions under my fingers.  
+              The project was coded entirely with html css and vanilla javascript.
+              Click <a href="https://github.com/dmpellegrini/vimotional">here</a> to check out the code on github. And simply click
+              on the project below to visit the website.
+            </p>
+            <a class="project-image-container" href="https://vimotional.netlify.app/" target="_blank">
+              <img class="projects-image" src="../assets/projects/vimotional.png" alt="vimotional">
+            </a>
+          </div>
+          <div class="project-container">
+            <h3 class="project-title">Pokémern (MERN Stack Project)</h3>
+            <p class="project-about">
+              As a long time fan of the Pokémon series growing up, I took the opportunity to utilize data from 
+              the robust <a href="https://pokeapi.co/">Pokéapi</a> restfull API. The API is a plethora of information
+              but was overbuilt for the purposes of the app I was trying to create. So I cherry picked the data I needed
+              from the disparate endpoints of the Pokéapi and seeded a custom Mongodb database.  Then I built a custom API utilizing
+              express to feed my front end app with the relevent data it needed. Finally with all the data in place, I utilized
+              React in order to pull and display data from my custom Pokemon API.
+              Click <a href="https://github.com/dmpellegrini/pokemon-react">here</a> to check out the code on github. And simply click
+              on the project below to visit the website.
+            </p>
+            <a class="project-image-container" href="https://pokemern.netlify.app/" target="_blank">
+              <img class="projects-image" src="../assets/projects/pokemern.png" alt="pokemern">
+            </a>
+          </div>
+          <div class="project-container">
+            <h3 class="project-title">League Of Legends Clone (MERN Full CRUD)</h3>
+            <p class="project-about">
+              For our my first group project at General Assembly, our team made a League Of Legends
+              info site that closely mimicked the 
+              <a href="https://www.leagueoflegends.com/en-us/">League Of Legends Official Website</a>.
+              On this project, the backend was built not only to provide data, but also user authentication 
+              and the ability for those users to update their own profiles.
+              You can find the root endpoint of the project's back end API
+              <a href="https://legendary-slayers-be-production.up.railway.app/">here</a> and it's documentation
+              <a href="https://github.com/dmpellegrini/Legendary-Slayers-BE">here</a>. Click
+              <a href="https://github.com/durlinlin/Legendary-Slayers-FE">here</a> to check out the code on
+              github, or just click the project image below to check out the website.
+            </p>
+            <a class="project-image-container" href="https://legendsofleague.netlify.app/" target="_blank">
+              <img class="projects-image" src="../assets/projects/league_of_legends.png" alt="league_of_legends">
+            </a>
+          </div>
+          <div class="project-container">
+            <h3 class="project-title">Talkin Shmack (Twitter Inspired)</h3>
+            <p class="project-about">
+              For my final group project for General Assembly, our team was asked to make a twitter inspired
+              social media app. For this project, we utilized django, postgres and react in order to make 
+              a functioning Twitter style website where people could Talk Shmack. The trickiest part of this
+              build was implementing truely secure authentication in which no passwords were leaked.
+              Click <a href="https://github.com/SEI-Buffleheads/talkin-smack-fe">here</a> 
+              to check out the code on github, or just click the project image below to check out 
+              the website.
+            </p>
+            <a class="project-image-container" href="https://genuine-marshmallow-56fd7d.netlify.app/home" target="_blank">
+              <img class="projects-image" src="../assets/projects/talkin_shmack.png" alt="talkin_shmack">
+            </a>
           </div>
         </div>
-
+          <div class="article-container" id="audio-credits-container">
+            <h2>Audio Engineering Credits:</h2>
+            <div id="audio-image-container">
+              <img class="album" src="assets/audio/Chace_Rice_Lambs_And_Lions.jpg" alt="Chase Rice, Lambs and Lions">
+              <img class="album" src="assets/audio/Picture_This_Picture_This.jpg" alt="Picture This, Picture This">
+              <img class="album" src="assets/audio/Current_Swell_When_To_Talk_And_When_To_Listen.jpg"
+                alt="Current Swell, When To Talk and When To Listen">
+              <img class="album" src="assets/audio/You_Me_At_Six_Night_People.jpg" alt="You Me At Six, Night People">
+              <img class="album" src="assets/audio/Shania_Twain_Now.jpg" alt="Shania Twain, Now">
+              <img class="album" src="assets/audio/Guthrie_Brown_Natural.jpg" alt="Guthrie Brown, Natural">
+              <img class="album" src="assets/audio/Rich_O'Toole_American_Kid.jpg" alt="Rich O'Toole American Kid">
+              <img class="album" src="assets/audio/City_and_Colour_A_Pill_for_Loneliness.jpg" alt="City and Colour, A Pill For Lonliness">
+              <img class="album" src="assets/audio/Ben_Rogers_Wildfire.jpg" alt="Ben Rogers Wildfire">
+              <img class="album" src="assets/audio/Parachute_Parachute.jpg" alt="Parachute, Parachute">
+              <img class="album" src="assets/audio/Only_Smith_And_Burrows_Is_Good_Enough.jpg"
+                alt="Smith and Burrows, Only Smith and Burrows Is Good Enough">
+              <img class="album" src="assets/audio/Chris_Daughtry_Cage_To_Rattle.jpg" alt="Chris Daughtry, Cage To Rattle">
+              <img class="album" src="assets/audio/Guthrie_Brown_Keeping_On.jpg" alt="Guthrie Brown, Keeping On">
+              <img class="album" src="assets/audio/Ford_Turrell_Days_Go_By.jpg" alt="Ford Turrel, Days Go By">
+              <img class="album" src="assets/audio/Niall_Horan_Flicker.jpg" alt="Niall Horan, Flicker">
+            </div>
+          </div>  
+        <div class="article-container" id="skills-container">
+          <h1 id="skills-title">Skills:</h1>
+          <div id="skills-image-container">
+            <a href="https://262.ecma-international.org/13.0/" target="_blank">
+              <img class="skills-image" src="../assets/skills/javascript.png" alt="javascript">
+            </a>
+            <a href="https://python.org" target="_blank">
+              <img class="skills-image" src="../assets/skills/python.png" alt="python">
+            </a>
+            <a href="https://www.swift.org/documentation/" target="_blank">
+              <img class="skills-image" src="../assets/skills/swift.png" alt="swift">
+            </a>
+            <a href="https://reactjs.org/" target="_blank">
+              <img class="skills-image" src="../assets/skills/react.png" alt="react">
+            </a>
+            <a href="https://nodejs.org/en/" target="_blank">
+              <img class="skills-image" src="../assets/skills/node_js.png" alt="node_js">
+            </a>
+            <a href="https://html.spec.whatwg.org/multipage/" target="_blank">
+              <img class="skills-image" src="../assets/skills/html.png" alt="html">
+            </a>
+            <a href="https://www.w3.org/Style/CSS/" target="_blank">
+              <img class="skills-image" src="../assets/skills/css3.png" alt="css3">
+            </a>
+            <a href="https://www.djangoproject.com/" target="_blank">
+              <img class="skills-image" src="../assets/skills/django.png" alt="django">
+            </a>
+            <a href="https://www.mongodb.com/home" target="_blank">
+              <img class="skills-image" src="../assets/skills/mongodb.png" alt="mongodb">
+            </a>
+            <a href="https://www.postgresql.org/" target="_blank">
+              <img class="skills-image" src="../assets/skills/postgres.png" alt="postgres">
+            </a>
+            <a href="https://expressjs.com/" target="_blank">
+              <img class="skills-image" src="../assets/skills/express.png" alt="react">
+            </a>
+            <a href="https://www.vim.org/docs.php" target="_blank">
+              <img class="skills-image" src="../assets/skills/vim.png" alt="vim">
+            </a>
+            <a href="https://neovim.io/doc/" target="_blank">
+              <img class="skills-image" src="../assets/skills/neovim.png" alt="neovim">
+            </a>
+          </div>
+        </div>
       </article>
       <aside>
       </aside>
     <footer>
       <a href="https://github.com/dmpellegrini">
-        <img class="social-media-logos" src="../assets/git_hub.png" alt="git hub">
+        <img class="social-media-logos" src="../assets/social_media/git_hub.png" alt="git hub">
       </a>
       <a href="https://www.linkedin.com/in/danny-pellegrini/">
-        <img class="social-media-logos" src="../assets/linkedin_abbreviation.png" alt="linkedin">
+        <img class="social-media-logos" src="../assets/social_media/linkedin_abbreviation.png" alt="linkedin">
       </a>
       <a href="mailto:danny.m.pellegrini@gmail.com" target="_blank" rel="noopener noreferrer">
-        <img class="social-media-logos" id="gmail-logo" src="../assets/gmail.png" alt="gmail">
+        <img class="social-media-logos" id="gmail-logo" src="../assets/social_media/gmail.png" alt="gmail">
       </a>
     </footer>
   </body>
