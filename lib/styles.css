@@ -17,7 +17,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 200px 1fr 200px;
-  grid-template-rows: 200px 1fr 200px;
+  grid-template-rows: 100px 1fr 100px;
 }
 
 header {
@@ -38,17 +38,24 @@ header {
   margin: 10px;
 }
 
+#header-title-name {
+  font-size: 25px;
+
+}
+
 #header-title-text-container {
   min-width: 340px;
 }
 
 #header-subtitle {
+  font-size: 20px;
   padding-left: 40px;
   color: red;
 }
 
 #header-sub-subtitle {
   padding-left: 90px;
+  font-size: 15px;
 }
 
 #header-links {
@@ -97,6 +104,7 @@ article {
   color: grey;
   padding: 20px;
   margin: 0;
+  font-size: 20px;
 }
 
 #skills-title {
@@ -104,15 +112,18 @@ article {
 }
 
 #skills-image-container {
+  outline: solid grey;
   display:  flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 20px;
+  margin: 40px;
   row-gap: 20px;
   column-gap: 20px;
 }
 
 .skills-image {
-  height: 100px;
+  height: 75px;
   max-width: fit-content;
 }
 
@@ -183,13 +194,13 @@ footer {
 }
 
 .social-media-logos {
-  height: 100px;
+  height: 50px;
   max-width: 100%;
   margin: 0;
 }
 
 #gmail-logo {
-  height: 80px;
+  height: 40px;
 
 }
 
