@@ -16,32 +16,68 @@
         </div>
       </div>
       <div id="header-links">
-        <h3>About Me</h3>
-        <h3>Software Engineering</h3>
-        <h3>Audio Engineering</h3>
-        <h3>Contact</h3>
+        <a class="header-link" href="https://github.com/dmpellegrini" target="_blank">
+          <h3>GitHub</h3>
+        </a>
+        <a class="header-link" href="https://www.linkedin.com/in/danny-pellegrini/" target="_blank">
+          <h3>Linkedin</h3>
+        </a>
+        <a class="header-link" href="mailto:danny.m.pellegrini@gmail.com" target="_blank" rel="noopener noreferrer">
+          <h3>Contact</h3>
+        </a>
+        <a class="header-link" href="assets/DPellegrini_Resumé.pdf" download="DPellegrini_Resumé">
+          <h3>Resumé</h3>
+        </a>
       </div>
     </header>
       <nav>
-        <ul>
-          <li>Bio</li>
-          <li>Web Developement</li>
-          <li>Audio Engineering</li>
-          <li>Skills</li>
+        <ul id="nav-list">
+          <a href="/index.html#bio-title">
+            <li class="nav-list-item">About</li>
+          </a>
+          <a href="/index.html#skills-title">
+            <li class="nav-list-item">Skills</li>
+          </a>
+          <li class="nav-list-item">
+            Web Dev
+            <ul id="project-list">
+              <a href="/index.html#vimotional">
+                <li class="project-list-item">Vimotional</li>
+              </a>
+              <a href="/index.html#pokemern">
+                <li class="project-list-item">Pokémern</li>
+              </a>
+              <a href="/index.html#lol">
+                <li class="project-list-item">LOL Clone</li>
+              </a>
+              <a href="/index.html#talkin_shmack">
+                <li class="project-list-item">Talkin Shmack</li>
+              </a>
+            </ul>
+          </li>
+          <a href="/index.html#audio-credits-container">
+            <li class="nav-list-item">Recording</li>
+          </a>
         </ul>
       </nav>
       <article>
         <div class="article-container" id="bio-container"> 
-          <h1 id="bio-title">About Me:<h1>
+          <h1 class="article-title" id="bio-title">About Me:<h1>
+          <img id="bio-image" src="../assets/DPellegrini_Pic.jpg" alt="DPellegrini_Pic">
           <p id="bio-text">
             Hello World! I'm Danny Pellegrini, and welcome to my web page.
             I'm a Full Stack Developer based in New York City with a previous
-            career in the Recording Industry. My passion is working with teams
-            to build tools that will contribute to the modern world.
+            career in the Recording Industry. Whether it's building web apps
+            or helping artists achieve their dream project, I strive to
+            deliver a result that elevates the expectations of those that I
+            work with. My ultimate goal is to build tools that will help people and 
+            make a humble contribution to the functionality and enjoyment 
+            of the modern world.
           </p>  
+
         </div>
         <div class="article-container" id="skills-container">
-          <h1 id="skills-title">Skills:</h1>
+          <h1 class="article-title" id="skills-title">Skills:</h1>
           <div id="skills-image-container">
             <a href="https://262.ecma-international.org/13.0/" target="_blank">
               <img class="skills-image" src="../assets/skills/javascript.png" alt="javascript">
@@ -85,9 +121,9 @@
           </div>
         </div>
         <div class="article-container" id="projects-container">
-          <h1 id="projects-title">Web Development Projects:</h1>
+          <h1 class="article-title" id="projects-title">Web Development Projects:</h1>
           <div class="project-container">
-            <h3 class="project-title">Vimotional (Vanilla Javascript)</h3>
+            <h3 class="project-title" id="vimotional">Vimotional (Vanilla Javascript)</h3>
             <p class="project-about">
               When I first started bootcamp at General Assembly, my instructor 
               inspired me to learn VIM. The learning curve was           
@@ -98,11 +134,11 @@
               on the project below to visit the website.
             </p>
             <a class="project-image-container" href="https://vimotional.netlify.app/" target="_blank">
-              <img class="projects-image" src="../assets/projects/vimotional.png" alt="vimotional">
+              <img class="projects-image" id="vimotional-image" src="../assets/projects/vimotional.png" alt="vimotional">
             </a>
           </div>
           <div class="project-container">
-            <h3 class="project-title">Pokémern (MERN Stack Project)</h3>
+            <h3 class="project-title" id="pokemern">Pokémern</h3>
             <p class="project-about">
               As a long time fan of the Pokémon series growing up, I took the opportunity to utilize data from 
               the robust <a href="https://pokeapi.co/">Pokéapi</a> restfull API. The API is a plethora of information
@@ -114,11 +150,11 @@
               on the project below to visit the website.
             </p>
             <a class="project-image-container" href="https://pokemern.netlify.app/" target="_blank">
-              <img class="projects-image" src="../assets/projects/pokemern.png" alt="pokemern">
+              <img class="projects-image" id="pokemern-image" src="../assets/projects/pokemern.png" alt="pokemern">
             </a>
           </div>
           <div class="project-container">
-            <h3 class="project-title">League Of Legends Clone (MERN Full CRUD)</h3>
+            <h3 class="project-title" id="lol">League Of Legends Clone</h3>
             <p class="project-about">
               For our my first group project at General Assembly, our team made a League Of Legends
               info site that closely mimicked the 
@@ -132,11 +168,11 @@
               github, or just click the project image below to check out the website.
             </p>
             <a class="project-image-container" href="https://legendsofleague.netlify.app/" target="_blank">
-              <img class="projects-image" src="../assets/projects/league_of_legends.png" alt="league_of_legends">
+              <img class="projects-image" id="lol-image" src="../assets/projects/league_of_legends.png" alt="league_of_legends">
             </a>
           </div>
           <div class="project-container">
-            <h3 class="project-title">Talkin Shmack (Twitter Inspired)</h3>
+            <h3 class="project-title" id="talkin_shmack">Talkin Shmack</h3>
             <p class="project-about">
               For my final group project for General Assembly, our team was asked to make a twitter inspired
               social media app. For this project, we utilized django, postgres and react in order to make 
@@ -147,12 +183,12 @@
               the website.
             </p>
             <a class="project-image-container" href="https://genuine-marshmallow-56fd7d.netlify.app/home" target="_blank">
-              <img class="projects-image" src="../assets/projects/talkin_shmack.png" alt="talkin_shmack">
+              <img class="projects-image" id="talkin-shmack-image" src="../assets/projects/talkin_shmack.png" alt="talkin_shmack">
             </a>
           </div>
         </div>
         <div class="article-container" id="audio-credits-container">
-          <h2>Audio Engineering Credits:</h2>
+          <h1 class="article-title" id="audio-credits-title">Audio Engineering Credits:</h1>
           <div id="audio-image-container">
             <img class="album" src="assets/audio/Chace_Rice_Lambs_And_Lions.jpg" alt="Chase Rice, Lambs and Lions">
             <img class="album" src="assets/audio/Picture_This_Picture_This.jpg" alt="Picture This, Picture This">
@@ -177,10 +213,10 @@
       <aside>
       </aside>
     <footer>
-      <a href="https://github.com/dmpellegrini">
+      <a href="https://github.com/dmpellegrini" target="_blank">
         <img class="social-media-logos" src="../assets/social_media/git_hub.png" alt="git hub">
       </a>
-      <a href="https://www.linkedin.com/in/danny-pellegrini/">
+      <a href="https://www.linkedin.com/in/danny-pellegrini/" target="_blank">
         <img class="social-media-logos" src="../assets/social_media/linkedin_abbreviation.png" alt="linkedin">
       </a>
       <a href="mailto:danny.m.pellegrini@gmail.com" target="_blank" rel="noopener noreferrer">
