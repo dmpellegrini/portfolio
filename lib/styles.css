@@ -325,6 +325,8 @@ footer {
 
 @media screen and (max-width: 1000px) {
   body {
+    height: 100%;
+    width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 1fr 100px 100px;
     margin: 0;
@@ -344,6 +346,14 @@ footer {
     border: none;
   } 
 
+  .article-container {
+    scroll-margin-top: 100px;
+  }
+
+  .bio-container {
+    scroll-margin-bottom: -100px;
+  }
+
   nav {
     display: none;
   } 
@@ -359,14 +369,11 @@ footer {
     grid-row: 3;
     background-color: white;
     border-top: solid grey;
-    position: absolute;
+    position: sticky;
     bottom: 100px;
-    padding-bottom: 50px;
-    left: 0;
-    right: 0;
   }
 
-  .nav-alt-link {
+  .nav-alt-title {
     font-size: 30px;
   }
 
@@ -374,5 +381,6 @@ footer {
     grid-row: 4; 
     grid-column: 1;
     position: sticky;
+    bottom: 0;
   } 
 }
