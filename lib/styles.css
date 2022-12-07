@@ -340,6 +340,7 @@ footer {
   article {
     grid-row: 3; 
     grid-column: 1;
+    border: none;
   } 
 
   nav {
