@@ -337,6 +337,10 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+  * {
+    transition: none;
+  }
+  
   body {
     height: 100%;
     width: 100%;
