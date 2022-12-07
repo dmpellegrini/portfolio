@@ -158,6 +158,7 @@ article {
 
 .article-title {
   border-bottom: solid grey;
+  padding-bottom: 30px;
 }
 
 #bio-title {
@@ -352,10 +353,6 @@ footer {
 
   .article-container {
     scroll-margin-top: 100px;
-  }
-
-  .bio-container {
-    scroll-margin-bottom: -100px;
   }
 
   nav {
