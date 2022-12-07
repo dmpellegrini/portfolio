@@ -378,6 +378,11 @@ footer {
     font-size: 30px;
   }
 
+  .article-title {
+    border-bottom: solid grey;
+    padding-bottom: 30px;
+  }
+
   footer {
     display: none;
     grid-row: 4; 
