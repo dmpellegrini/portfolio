@@ -328,7 +328,7 @@ footer {
     height: 100%;
     width: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr 100px 100px;
+    grid-template-rows: 100px 1fr 100px;
     margin: 0;
   }
 
@@ -339,6 +339,10 @@ footer {
     flex-direction: column;
     position: sticky;
   } 
+
+  #header-links {
+    font-size: 20px;
+  }
 
   article {
     grid-row: 2; 
@@ -370,7 +374,7 @@ footer {
     background-color: white;
     border-top: solid grey;
     position: sticky;
-    bottom: 100px;
+    bottom: 0;
   }
 
   .nav-alt-title {
@@ -378,6 +382,7 @@ footer {
   }
 
   footer {
+    display: none;
     grid-row: 4; 
     grid-column: 1;
     position: sticky;
