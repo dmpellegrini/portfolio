@@ -358,6 +358,7 @@ footer {
     align-items: center;
     grid-row: 2;
     border-bottom: solid grey;
+    position:  sticky;
   }
 
   footer {
