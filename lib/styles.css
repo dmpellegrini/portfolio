@@ -362,5 +362,6 @@ footer {
   footer {
     grid-row: 4; 
     grid-column: 1;
+    position: relative;
   } 
 }
