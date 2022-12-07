@@ -358,7 +358,12 @@ footer {
     align-items: center;
     grid-row: 2;
     border-bottom: solid grey;
-    position: static;
+    position: fixed;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    top: 100px;
+    left: 0;
+    right: 0;
   }
 
   footer {
