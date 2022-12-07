@@ -235,7 +235,7 @@ article {
 .project-tech-image {
   grid-row: 1;
   height: 25px;
-  width: fit-content;
+  max-width: fit-content;
 }
 
 .project-about {
