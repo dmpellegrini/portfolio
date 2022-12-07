@@ -219,11 +219,23 @@ article {
   margin-top: 20px;
 }
 
+.project-title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  column-gap: 20px;
+}
 
 .project-title {
   grid-row: 1;
   color: black;
-  padding-top: 20px;
+  padding-top: 10px;
+}
+
+.project-tech-image {
+  grid-row: 1;
+  height: 25px;
+  width: fit-content;
 }
 
 .project-about {
