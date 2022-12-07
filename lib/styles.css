@@ -359,7 +359,11 @@ footer {
     grid-row: 3;
     background-color: white;
     border-top: solid grey;
-    position: sticky;
+    position: absolute;
+    bottom: 100px;
+    padding-bottom: 50px;
+    left: 0;
+    right: 0;
   }
 
   .nav-alt-link {
