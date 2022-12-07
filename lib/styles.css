@@ -1,6 +1,6 @@
-* {
+/* * { */
   /* outline: solid red; */
-}
+/* } */
 
 html {
   outline: none;
@@ -111,7 +111,7 @@ nav {
 
 .nav-list-item {
   margin: 10px; 
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: black;
   transition: .5s;
@@ -129,7 +129,7 @@ nav {
 .project-list-item {
   margin: 10px;
   padding: 0px;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: normal;
   color: black;
   transition: .5s;
@@ -179,6 +179,7 @@ article {
   padding: 20px;
   margin: 0;
   font-size: 20px;
+  font-weight: normal;
 }
 
 #skills-title {
@@ -207,10 +208,8 @@ article {
   height: 80px;
 }
 
-
-
 #projects-title {
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .project-container {
