@@ -399,6 +399,14 @@ footer {
     padding-bottom: 30px;
   }
 
+  .projects-image {
+    transition: none;
+  }
+
+  .projects-image:hover {
+    height: 350px;
+  }
+
   footer {
     display: none;
     grid-row: 4; 
