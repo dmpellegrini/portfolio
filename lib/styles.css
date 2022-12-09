@@ -70,13 +70,13 @@ header {
 
 #header-subtitle {
   font-size: 20px;
-  padding-left: 40px;
+  padding-left: 30px;
   color: red;
 }
 
 #header-sub-subtitle {
-  padding-left: 90px;
-  font-size: 15px;
+  padding-left: 110px;
+  font-size: 18px;
 }
 
 #header-links {
